@@ -1,0 +1,4 @@
+str = 'hello world'
+# ele普通变量  接收容器中的元素
+for s in str:
+    print(s)

@@ -1,0 +1,60 @@
+namesList = ['林青霞','张曼玉','胡慧中']
+print(namesList)
+
+
+namesList = ['林青霞','张曼玉','胡慧中']
+# 获取第二个人
+name = namesList[1]
+print(name)
+
+
+namesList = ['林青霞','张曼玉','胡慧中']
+# 遍历列表
+for name in namesList:
+    print(name)
+    
+namesList = ['林青霞','张曼玉','胡慧中']
+# 增加高圆圆
+namesList.append('高圆圆')
+print(namesList)
+
+
+namesList = ['林青霞','张曼玉','胡慧中']
+# 删除张曼玉
+namesList.pop(2)
+print(namesList)
+# ['林青霞','张曼玉']
+
+
+
+namesList = ['林青霞','张曼玉','胡慧中']
+# 删除张曼玉
+namesList.remove('张曼玉')
+print(namesList)
+
+
+namesList = ['林青霞','张曼玉','胡慧中']
+# 将张曼玉修改成高圆圆
+namesList[1] = '高圆圆'
+print(namesList)
+
+namesList = ['林青霞','张曼玉','胡慧中']
+# 查找元素张曼玉的索引
+index = namesList.index('张曼玉')
+print(index)
+
+ageList = [90,10,30,20,50,70]
+# 从小到大 升序
+ageList.sort()
+print(ageList)
+
+
+ageList = [90,10,30,20,50,70]
+# 从大到小 降序排序
+ageList.sort(reverse=True)
+print(ageList)
+
+ageList = [90,10,30,20,50,70]
+# reverse 将列表进行反转
+ageList.reverse()
+print(ageList)

@@ -1,0 +1,12 @@
+def calc(a, b):
+    '''
+    求a+b以及a-b的结果
+    :param a:
+    :param b:
+    :return: 结果的元组
+    '''
+    sum = a + b
+    sub = a-b
+    return sum, sub
+
+sum, sub = calc(10, 20)

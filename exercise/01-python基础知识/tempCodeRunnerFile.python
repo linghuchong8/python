@@ -1,0 +1,4 @@
+ageList = [90,10,30,20,50,70]
+# 从大到小 降序排序
+ageList.sort(reverse=True)
+print(ageList)
